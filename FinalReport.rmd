@@ -17,6 +17,10 @@ triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 
 A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the females, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command.
 
+ $H_0$:Among women there is no difference in the percentage of the women who got aids between those who got the vaccine and those who go the placebo.
+ 
+ $H_A$:Among the women  who contracted aids there is a differnce between those who got aids and those who got the placebo.
+
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
@@ -92,7 +96,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 3 sets of test that were run and the sets p value were too small that I have to reget the null hypothesis that's its impossible to recreate .
-
+The odds ratio 1.5439 are more women who are  likely that women to get aid compared to those who did not  .
 
 # Discussion and Conclusion
 
