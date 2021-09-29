@@ -95,9 +95,11 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-3 sets of test that were run and the sets p value were too small that I have to reget the null hypothesis that's its impossible to recreate .
+3 sets of test that were run and the sets p value were too small that I have to rejectthe null hypothesis that's its impossible to recreate .
 The odds ratio 1.5439 are more women who are  likely that women to get aid compared to those who did not  .
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+According to the ratio odds there is only a 1.543901 :1 of women contracting aids after getting the vaccine, unlike those women who got placebo effect .The p value set are too low that the null hypothesis is rejected because the confidence ratio is entirely above one meaning it does not work .It does not protect, it does the opposite it increase the chances for aids .
